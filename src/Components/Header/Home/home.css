@@ -1,0 +1,31 @@
+.home {
+    width: 98%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.home__container {
+    display: flex;
+}
+/* ++++++++++++++++++++++++++    LEFT   ++++++++++++++++++++++++++++++++ */
+.left__part__home {
+    width: 15%;
+    background-color: aquamarine;
+    height: 100%;
+}
+/* ++++++++++++++++++++++++++    CENTRAL   ++++++++++++++++++++++++++++++++ */
+.central__part__home {
+    width: 70%;
+    background-color: aqua;
+    height: 100%;
+}
+/* ++++++++++++++++++++++++++    RIGHT   ++++++++++++++++++++++++++++++++ */
+.right__part__home {
+    width: 15%;
+    background-color: blueviolet;
+    height: 100%;
+}
